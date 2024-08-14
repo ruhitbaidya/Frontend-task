@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
         integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/fontawesome.min.css" integrity="sha512-B46MVOJpI6RBsdcU307elYeStF2JKT87SsHZfRSkjVi4/iZ3912zXi45X5/CBr/GbCyLx6M1GQtTKYRd52Jxgw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
@@ -24,10 +27,10 @@
                 <div class="container">
                     <div class="hero-container">
                         <div class="hero-content">
-                            <h1>Shop the Best, All in One Place <span id="element"></span></h1>
+                            <h1>Shop the Best, All in One Place</h1>
                             <p>Shop the latest trends, exclusive collections, and daily deals. Enjoy fast shipping and
                                 hassle-free returns, all in one place.</p>
-                            <button>Shop Now</button>
+                            <button>Shop Now  </button>
                         </div>
                     </div>
                 </div>
@@ -40,7 +43,8 @@
     <section class="product_slider">
         <div class="container">
             <div>
-                <h2>Choice Your Product</h2>
+                <h2 class="titles">Choice Your Product</h2>
+                <hr class="underline">
             </div>
             <div>
                 <div id="product_slider" class="slider-1"></div>
@@ -48,11 +52,93 @@
         </div>
     </section>
 
+    <!-- About us Section -->
 
+    <section class="about-us">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="titles">About Us</h2>
+                <hr class="underline">
+                <p class="description">Discover a world of Digital Shop at E-com Shop. Enjoy top-quality items,
+                    exclusive
+                    deals, and seamless shopping experiences tailored just for you. Shop now for unbeatable value and
+                    convenience!</p>
+                <div class="about-content-grid">
+                    <div>
+                        <img class="image-about"
+                            src="https://st.depositphotos.com/1038076/4908/i/450/depositphotos_49080337-stock-photo-about-us.jpg"
+                            alt="">
+                    </div>
+                    <div>
+                        <div id="accordion" class="acordion-styles">
+                            <h3>Section 1</h3>
+                            <div>
+                                <p>
+                                    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+                                    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+                                    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+                                    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+                                </p>
+                            </div>
+                            <h3>Section 2</h3>
+                            <div>
+                                <p>
+                                    Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+                                    purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+                                    velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+                                    suscipit faucibus urna.
+                                </p>
+                            </div>
+                            <h3>Section 3</h3>
+                            <div>
+                                <p>
+                                    Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+                                    Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+                                    ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+                                    lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+                                </p>
+                                <ul>
+                                    <li>List item one</li>
+                                    <li>List item two</li>
+                                    <li>List item three</li>
+                                </ul>
+                            </div>
+                            <h3>Section 4</h3>
+                            <div>
+                                <p>
+                                    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                                    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+                                    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+                                    mauris vel est.
+                                </p>
+                                <p>
+                                    Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+                                    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                                    inceptos himenaeos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Customer review slider -->
+
+    <section id="review-Client">
+        <div class="container">
+            <h2 class="titles">Our Customer Review</h2>
+            <hr class="underline">
+            <div>
+                <div id="client_slider" class="slider-2"></div>
+            </div>
+        </div>
+    </section>
 
     <script type="module" src="./js/index.js"></script>
     <script type="module" src="./js/data.js"></script>
+    <script type="module" src="./js/clientdata.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -62,6 +148,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
         integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.7.1.js"></script> -->
+    <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>
 
     <script>
         $(document).ready(function () {
@@ -69,8 +157,7 @@
                 slidesToShow: 4,
                 slidesToScroll: 1,
                 autoplay: true,
-                autoplaySpeed: 2000,
-                dots: true,
+                autoplaySpeed: 2000, 
                 infinite: true,
                 speed: 300,
                 responsive: [
@@ -99,6 +186,38 @@
                     }
                 ]
             });
+        });
+
+        $(document).ready(function () {
+            $('.slider-2').slick({
+                centerMode: true,
+                centerPadding: '60px',
+                slidesToShow: 3,
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            arrows: false,
+                            centerMode: true,
+                            centerPadding: '40px',
+                            slidesToShow: 3
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            arrows: false,
+                            centerMode: true,
+                            centerPadding: '40px',
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+        });
+
+        $(function () {
+            $("#accordion").accordion();
         });
 
     </script>
